@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Cierre.html</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+<style >
+	
+.fm-nav a {
+
+	color: #fff;
+	padding: 15px;
+}
+
+.fm-nav a:hover {
+
+	background: rgba(255,255,255,.1);
+}
+
+</style>
+
+
+</head>
+
+
+
+<body>
+<div class="container">
+
+	<div class="row">
+
+	
+<!-- Menú con mi estilo -->
+<div class="col-12 mt-4">
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<!-- .container nos permite centrar el contenido de nuestro menu, esta clase es opcional y podemos encerrar el menu <nav> o incluir el contenedor dentro del <nav> -->
+		
+							
+			<!-- Nos permite usar el componente collapse para dispositivos moviles -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a href="index.html" class="nav-link">Inicio <span class="sr-only">(Actual)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+				<a href="biografia.html" class="nav-link dropdown-toggle"  aria-haspopup="true" aria-expanded="false"   >
+							Biografía
+						</a>
+						
+					</li>
+					<li class="nav-item dropdown">
+						<a href="discurso.html" class="nav-link dropdown-toggle"  aria-haspopup="true" aria-expanded="false"  >
+						Discurso del Autor
+						</a>
+						
+					</li>
+					
+					<li class="nav-item dropdown">
+						<a href="premio.html" class="nav-link dropdown-toggle"  aria-haspopup="true" aria-expanded="false" >
+							Premio Nobel
+						</a>
+						<!--<div class="dropdown-menu" aria-labelledby="menu-categorias">-->
+						<!--	<a href="#" class="dropdown-item">subitem</a>-->
+							
+					</li>
+					<li class="nav-item dropdown">
+						<a href="cierre.html" class="nav-link dropdown-toggle"  aria-haspopup="true" aria-expanded="false" >
+							Cierre
+						</a>
+						<!--<div class="dropdown-menu" aria-labelledby="menu-categorias">-->
+						<!--	<a href="#" class="dropdown-item">subitem</a>-->
+							
+					</li>
+
+                    <li class="nav-item dropdown">
+						<a href="obra.html" class="nav-link dropdown-toggle"  aria-haspopup="true" aria-expanded="false" >
+							Obra
+						</a>
+						<!--<div class="dropdown-menu" aria-labelledby="menu-categorias">-->
+						<!--	<a href="#" class="dropdown-item">subitem</a>-->
+							
+					</li>
+
+				</ul>
+			
+			 
+	</nav>
+
+	<h3>VALORES</h3> 
+
+	
+<!-- Comienza Slide -->
+
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/derechos.jpg"  class="d-block" alt="">
+
+			</div>
+
+			
+
+		</div>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+<!-- Termina Slide -->
+
+
+
+
+<!-- Comienza Contenido -->
+
+<section>
+
+<div class="row">
+	<div class="col-8 col-lg-9 text-justify">
+		<h1></h1>
+		<p> El escritor Mario Vargas Llosa ha defendido hoy el papel "fundamental" que juega la literatura como garante de la democracia y la libertad, al formar a ciudadanos informados, con espíritu crítico y conscientes de los que significa la verdad y la mentira, la justicia y la injusticia.</p>
+
+
+
+
+		<p> La literatura ayuda a valorar la importancia de la libertad, la existencia pacífica y la diversidad, "valores supremos" -ha recalcado- y privilegios de una minoría del mundo.
+Por ese motivo, el escritor hispano-peruano ha defendido la literatura en un momento en el que se plantea como una actividad "marginal y prescindible" en los planes de estudios universitarios.</p>
+
+
+	
+	</div>
+
+	<div class="col-4 col-lg-3">
+		<h1></h1>
+		<p></p>
+		
+
+		
+
+	</div>
+
+
+
+	</div>
+
+</section>
+
+<!-- Sección 2 -->
+
+<section>
+	<div class="row">
+		<div class="col-12">
+			<h1></h1>
+
+					<p> </p>
+
+		
+
+
+
+	</div>
+
+</div>
+	
+
+
+
+</section>
+
+
+
+<div class="row mt-3">
+			<div class="col">
+				<form action="">
+					<div class="form-group">
+						<label for="nombre">Nombre</label>
+						<input type="text" class="form-control" placeholder="Nombre" name="nombre" id="nombre">
+					</div>
+
+					
+
+					<div class="form-group">
+						<label for="mensaje">Mensaje</label>
+						<textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+					</div>
+
+					<div class="form-group">
+						<label for="pais">Pais</label>
+						<select name="pais" id="pais" class="form-control">
+							<option value="mexico">Mexico</option>
+							<option value="espana">España</option>
+							<option value="colombia">Colombia</option>
+							<option value="alemania">Alemania</option>
+							<option value="francia">Francia</option>
+						</select>
+					</div>
+
+					
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="checkbox" name="terminos" id="terminos" class="form-check-input mr-2">Acepto Terminos y Condiciones
+						</label>
+					</div>
+
+					<button class="btn btn-primary" type="submit">Enviar</button>
+				</form>
+			</div>
+		</div>
+
+
+
+
+<!-- Termina Sección 2 -->
+
+
+
+
+
+<!-- Termina contenido -->
+
+
+<!--Comienza secciòn de widgets -->
+
+
+<!-- Termina secciòn de widgets -->
+
+<!-- pie de página-->
+
+<footer class="row justify-content-center">
+			<div class="col-12  ">
+				<p>Hecho en la materia de INFORMÁTICA IV, Bachillerato Alfredo Nobel, todos los derechos reservados 2020. </p>
+
+				<p>Asesor de proyecto: Prof. Gabriel Sánchez</p>
+				<p>Asesor técnico en informática: Profa.Erika Martínez</p>
+					<p>Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. </p>
+						<p>De otra forma, requiere permiso previo por escrito del autor Hernàndez Rojo Renata.</p>
+					</div>
+		</footer>
+
+
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
